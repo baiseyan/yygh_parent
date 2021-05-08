@@ -6,6 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com.atguigu")
+@ComponentScan("com.yan")
 public class ServiceHospApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceHospApplication.class, args);
